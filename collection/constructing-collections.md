@@ -16,3 +16,11 @@ alice.name = "Alicia"
 println("First item's name is: ${sourceList[0].name} in source and ${copyList[0].name} in copy")
 println("List size is: ${sourceList.size} in source and ${copyList.size} in copy")
 ```
+
+# Invoke functions on other collections﻿
+
+```kotlin
+val numbers = listOf("one", "two", "three", "four")  
+val longerThan3 = numbers.filter { it.length > 3 }
+println(longerThan3)
+```
