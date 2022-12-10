@@ -1,8 +1,9 @@
-# List Collection 
+# List
 
 ```kotlin
-fun main() {
-    val itemList = listOf(1, 2, 3, 4, 5)
-    println(itemList)
-}
+val numbers = listOf("one", "two", "three", "four")
+println("Number of elements: ${numbers.size}")
+println("Third element: ${numbers.get(2)}")
+println("Fourth element: ${numbers[3]}")
+println("Index of element \"two\" ${numbers.indexOf("two")}")
 ```
