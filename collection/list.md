@@ -1,4 +1,4 @@
-# `List` Collection 
+# List Collection 
 
 ```kotlin
 fun main() {
