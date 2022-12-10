@@ -6,3 +6,12 @@ for (item in numbers) {
     println(item)
 }
 ```
+
+# forEach
+
+```kotlin
+val numbers = listOf("one", "two", "three", "four")
+numbers.forEach {
+    println(it)
+}
+```
