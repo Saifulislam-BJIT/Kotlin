@@ -32,6 +32,7 @@ println("The sets are equal: ${numbers == numbersBackwards}")
 ```
 
 # Map
+
 ```kotlin
 val numbersMap = mapOf("key1" to 1, "key2" to 2, "key3" to 3, "key4" to 1)
 
@@ -40,4 +41,13 @@ println("All values: ${numbersMap.values}")
 if ("key2" in numbersMap) println("Value by key \"key2\": ${numbersMap["key2"]}")    
 if (1 in numbersMap.values) println("The value 1 is in the map")
 if (numbersMap.containsValue(1)) println("The value 1 is in the map") // same as previous
+```
+# Map Update
+
+```kotlin
+val numbersMap = mutableMapOf("one" to 1, "two" to 2)
+numbersMap.put("three", 3)
+numbersMap["one"] = 11
+
+println(numbersMap)
 ```
